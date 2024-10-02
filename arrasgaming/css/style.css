@@ -1,0 +1,176 @@
+
+main{
+    margin-left: 1%;
+    font-family: Arial, sans-serif;
+    font-size: 150%;
+    text-align: justify;
+    display: flex;
+    padding-bottom: 50px;
+}
+
+footer{
+    text-align: center;
+}
+
+@media screen and (max-width: 830px) {
+    header .section-supérieur{
+      font-size: 8px;
+    }
+}
+
+/* Style des boîtes de tournoi */
+.tournoi-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: 2%;
+    margin-right: 2%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style pour l'image et les détails du tournoi */
+.tournoi-box img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+/* Informations sur le tournoi */
+.tournoi-details {
+    flex-grow: 1;
+}
+
+/* Style pour le nom du tournoi */
+.tournoi-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Style pour les infos du tournoi (participants, cash prize) */
+.tournoi-info {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.btn-inscription {
+    margin-right: 75px;
+    width: 150px;
+    height: auto;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    
+    background-color: #f9f9f9;
+}
+
+main  {
+    max-width: 98% !important; 
+    margin: auto;
+    margin-top: 5%;
+    padding: 20px;
+    background-color: #fff;
+ 
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: auto;
+}
+
+ h1, h2 {
+    color: #333;
+    text-align: center;
+}
+
+ h1 {
+    margin-bottom: 40px;
+    font-size: 36px;
+}
+
+ h2 {
+    margin-top: 30px;
+    font-size: 28px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+    color: #000000;
+}
+
+ p {
+    margin: 15px 0;
+    font-size: 18px;
+    color: #555;
+}
+
+ section {
+    margin-bottom: 40px;
+}
+
+ strong {
+    font-weight: bold;
+    color: #000;
+}
+
+ a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+ a:hover {
+    text-decoration: underline;
+}
+/* Fichier : css/style.css */
+.connexion-main {
+    background-color: white;
+    margin-top: 1%;
+    padding: 40px;
+    padding-top: 10%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 150%;
+    
+    
+   
+}
+
+.connexion-form input[type="text"],
+.connexion-form input[type="password"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 100%;
+    align-items: center;
+}
+.connexion-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.connexion-form label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+.connexion-form input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.connexion-form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
